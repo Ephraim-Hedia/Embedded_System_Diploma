@@ -12,15 +12,15 @@ void Default_Handler()
 	Reset_Handler();
 }
 
-void NMI_Handler (void) __attribute__ ((weak, alias ("Default_Handler")));;
+void NMI_Handler (void) __attribute__ ((weak, alias ("Default_Handler")));
 
-void H_Fault_Handler(void) __attribute__ ((weak, alias ("Default_Handler")));;
+void H_Fault_Handler(void) __attribute__ ((weak, alias ("Default_Handler")));
 
-void MM_Fault_Handler(void) __attribute__ ((weak, alias ("Default_Handler")));;
+void MM_Fault_Handler(void) __attribute__ ((weak, alias ("Default_Handler")));
 
-void Bus_Fault(void) __attribute__ ((weak, alias ("Default_Handler")));;
+void Bus_Fault(void) __attribute__ ((weak, alias ("Default_Handler")));
 
-void Usage_Fault_Handler(void) __attribute__ ((weak, alias ("Default_Handler")));;
+void Usage_Fault_Handler(void) __attribute__ ((weak, alias ("Default_Handler")));
 
 
 extern unsigned int _stack_top;

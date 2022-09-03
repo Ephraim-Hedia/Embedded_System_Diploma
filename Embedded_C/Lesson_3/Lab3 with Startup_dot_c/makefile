@@ -1,7 +1,7 @@
 #@Copyright : Guiguis Hedia
 
 CC=arm-none-eabi-
-CFLAG=-gdwarf-2 -mcpu=cortex-m3
+CFLAGS=-gdwarf-2 -mcpu=cortex-m3
 INCS=-I .
 LIBS=
 SRC= $(wildcard *.c)

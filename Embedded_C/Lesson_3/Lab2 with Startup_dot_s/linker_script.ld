@@ -3,8 +3,8 @@ Guirguis Hedia
 */
 MEMORY
 {
-flash(RX) : ORIGIN =0x08000000, LENGTH =128K
-sram(RWX) : ORIGIN =0x20000000, LENGTH =20K
+	flash(RX) : ORIGIN =0x08000000, LENGTH =128K
+	sram(RWX) : ORIGIN =0x20000000, LENGTH =20K
 
 }
 
@@ -23,8 +23,7 @@ SECTIONS
 	*(.data)
 	. = ALIGN(4) ;
 	_E_DATA = . ;
-	
-	}>flash
+	} > flash
 	
 	
 	.bss : {
@@ -34,6 +33,5 @@ SECTIONS
 	. = ALIGN(4);
 	. = . +0x1000;
 	_stack_top = .;
-	
 	}> sram
 }	

@@ -1,7 +1,7 @@
 #@Copyright : Guiguis Hedia
 
 CC=arm-none-eabi-
-CFLAG=-g -mcpu=arm926ej-s
+CFLAGS=-g -mcpu=arm926ej-s
 INCS=-I .
 LIBS=
 SRC= $(wildcard *.c)

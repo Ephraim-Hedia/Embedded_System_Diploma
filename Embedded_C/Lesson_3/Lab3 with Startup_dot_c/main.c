@@ -18,7 +18,7 @@
  */
 
 #include "stdint.h"
-typedef volatile unsigned int vint32_t;
+typedef volatile unsigned int vuint32_t;
 
 //Registers Address
 #define RCC_BASE   	 0x40021000
@@ -32,10 +32,10 @@ typedef volatile unsigned int vint32_t;
 
 
 typedef union {
-		vint32_t 	all_fields;
+		vuint32_t 	all_fields;
 		struct {
-		vint32_t	reserved:13 ;
-		vint32_t	pin13:1 ;
+		vuint32_t	reserved:13 ;
+		vuint32_t	pin13:1 ;
 		}pin;
 }R_ODR_t;
 
@@ -55,7 +55,7 @@ int main(void)
 		for (int i=0 ;i<5000;i++);
 
 //		GPIO_ODR &=~(1<<13); //Clear Bit 13
-		R_ODR->pin.pin13=0;
+		R_ODR->pin.pin13=0;  
 		for (int i=0 ;i<5000;i++);
 
 	}
