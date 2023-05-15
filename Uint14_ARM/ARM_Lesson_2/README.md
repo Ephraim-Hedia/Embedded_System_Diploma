@@ -17,9 +17,5 @@
 ### Control Register
 
 
-`This lesson `
-
-
->this Lesson 
 
 
