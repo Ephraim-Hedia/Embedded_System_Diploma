@@ -50,7 +50,11 @@ General purpuse Register
 
 ### Thumb , ARM , Thumb2 ISA
 
+# The Main LAB
 
+![6](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/001dfb7f-1b77-4f5d-b79c-1ee2f0872aec)
+
+![7](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/9babdbdc-378e-49e1-b860-3470cf0a0c3d)
 
 
 
