@@ -21,15 +21,34 @@ Debug state means the processor is halted
 but the Tumb mode means the normal mode --> the processor can work without any halt 
 ```
 ## Core registers :
+>Overview for the Core Registers
 
 
+![3](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/48a8100e-62d4-48f4-94cb-179ddbf205d0)
+
+>Discribtion for the Registers
 
 
-### Exception mask registers 
+![4](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/eaee9842-9637-4404-b19c-766869e1dc44)
+
+
+### R0-R12
+### MSP (Stack Pointer)
+### PSP (Stack Pointer)
+### LR  (Link Register)
+### PC  (Program Counter)
+### PSR (Program status register)
+### ASPR (Application Program status register)
+### IPSR (Interrupt Program status register)
+### EPSR (Execution Program status register)
+### PRIMASK (Priority mask register )
+### FAULTMASK (Fault mask register)
+### BASEPRI (Base priority mask register)
+### Control Register
 
 ### Thumb , ARM , Thumb2 ISA
 
-### Control Register
+
 
 
 
