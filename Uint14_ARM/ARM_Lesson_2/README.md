@@ -33,7 +33,9 @@ but the Tumb mode means the normal mode --> the processor can work without any h
 
 
 ### R0-R12
+General purpuse Register 
 ### MSP (Stack Pointer)
+
 ### PSP (Stack Pointer)
 ### LR  (Link Register)
 ### PC  (Program Counter)
