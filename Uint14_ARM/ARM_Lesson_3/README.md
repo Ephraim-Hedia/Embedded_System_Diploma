@@ -1,4 +1,4 @@
-#ARM Lesson 3 LABs
+# ARM Lesson 3 LABs
 
 ## Lab1 with basic Assembly instruction (mov , bl , sub ,cmp ,bne) 
 ![1](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/8051eae2-2ea8-479f-8af0-c239203f386b)
