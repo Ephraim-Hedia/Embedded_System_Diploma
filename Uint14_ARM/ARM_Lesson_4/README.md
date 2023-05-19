@@ -21,6 +21,7 @@
 ![10](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/818535a9-306d-42dc-8b19-d0861e8ba0a8)
 ### Big Note (CONTROL Register Value in Handler Mode)
 ![11](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/76fd471c-425c-4210-899d-40a53dd6777e)
+### Achieved to be Privileged Again
 ![12](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/89ccd6f5-e295-4a2d-8a46-3446a5c9c1c9)
 
 
