@@ -13,7 +13,7 @@
 ![2](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/0ef88997-f4a9-43a6-a76c-975f9addf5c7)
 
 
-### 3-OS doesn't execute TASKA of TASKB untill ETXI take place
+### 3-OS doesn't execute TASKA of TASKB untill EXTI take place
 ![3](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/943da704-824a-4dd2-915a-79da91abb44f)
 ![4](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/ca751f16-1984-41b0-a4d8-0eafb44c7b03)
 ### 4- Put value to PSP 
