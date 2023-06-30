@@ -47,7 +47,18 @@ and the Task4 Which has "Highest periorty" try to Accure the Mutex --> SO Task 4
 ![6_Priority inversion](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/133d0665-fe20-46d6-9530-3fc256e392e1)
 
 
-### 7_ Dead lock
+### 7_ Dead lock Issue
+
+```
+Example of this Issue :
+Task_1 acquire Mutex_1 --> and Task_1 will achieve to do that because no one acquire Mutex_1 before
+then activate Task_4
+Task_4 acquire Mutex_2 --> and Task_4 will achieve to do that because no one acquire Mutex_2 before
+Then Task_4  acquire Mutex_1 --> Task_4 Fail because Task_1 acquire Mutex_1 Before --> SO Task_4 will be in suspend state till Task_1 release Mutex_1
+Then Task_1 acquire Mutex_2 --> Task_1 Fail because Task_4 acquire Mutex_2 Before --> SO Task_1 will be in suspend state till Task_4 release Mutex_2
+So The Both Tasks Enter the SUspend State forever 
+
+```
 ![7_Dead lock](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/280c2d58-e07f-49e6-af2d-5e8353a50b05)
 
 
