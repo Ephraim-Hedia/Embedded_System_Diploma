@@ -1,5 +1,23 @@
 # How to Use This RTOS
 
+## First Step 
+Use HW_init() in main Function to Change the periority of PendSV_IRQn to be equel the periorty of SysTick_IRQn
+To Avoid Nesting Interrupt about this section of code
+```
+int main(void)
+{
+HW_init();
+...
+...
+...
+}
+```
+The big role of this function to change the periority of the PendSV_IRQn to be equel the periorty of SysTick_IRQn
+```
+__NVIC_SetPriority(PendSV_IRQn, 15);
+```
+This Operating System Based on ARM cortex M3 So if you want to Use This Operating System with another Microprocessor You will Change in this Function
+## Second Step 
 
 To Create any Task You Need to Use This Stuct **Task_ref**
 
