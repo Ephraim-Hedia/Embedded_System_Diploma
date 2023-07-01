@@ -155,6 +155,16 @@ void (*p_TaskEntry)(void) --> you Set this parameter with address of function  <
 	error+=MYRTOS_CreateTask(&Task4);
 ```
 
-
-
-
+## Fourth Step
+Use MYRTOS_ActivateTask(&Task) Function To Activate All Tasks You Want to be activated Before Run The Operating System <br/>
+```
+MYRTOS_ActivateTask(&Task1);
+MYRTOS_ActivateTask(&Task2);
+MYRTOS_ActivateTask(&Task3);
+MYRTOS_ActivateTask(&Task4);
+```
+## Fifth Step
+Use MYRTOS_STARTOS() Function to Start OS <br/>
+```
+MYRTOS_STARTOS();
+```
