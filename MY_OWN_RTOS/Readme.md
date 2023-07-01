@@ -7,6 +7,14 @@ Feel Free to contact me, just message me at <br/>
 Linkedin at https://www.linkedin.com/in/guirguis-hedia-501446207/<br/>
 Facebook at https://www.facebook.com/afraem.hedia<br/>
 with your question.<br/>
+## MRTOS Features
+1. Support The basic operation of any RTOS.
+2. The MRTOS scheduler based on priority - Highest Priority Should Run First
+3. Support Round-Robin Scheduling when two or more tasks have the same highest priority.
+4. Updated the IDLE task content to enter sleep mode and wait for an event.
+5. Implement Queue Queue APIs to share data between tasks.
+6. Support Mutex as locking mechanism .
+7. Must Take Care of the deadlock problem.
 
 # How to Use This RTOS
 ## First Step 
