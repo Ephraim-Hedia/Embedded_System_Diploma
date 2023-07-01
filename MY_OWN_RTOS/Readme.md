@@ -3,13 +3,10 @@
 
 First of all The MRTOS is implemented for educational and learning purposes so it may exist some faults I didn't handle so u can upload them in the issue section or fork the project and try to add your modification.
 ## Getting help
-Feel Free to contact me, just message me at
-
-Linkedin at https://www.linkedin.com/in/guirguis-hedia-501446207/
-
-Facebook at https://www.facebook.com/afraem.hedia
-
-with your question.
+Feel Free to contact me, just message me at <br/>
+Linkedin at https://www.linkedin.com/in/guirguis-hedia-501446207/<br/>
+Facebook at https://www.facebook.com/afraem.hedia<br/>
+with your question.<br/>
 
 # How to Use This RTOS
 ## First Step 
@@ -62,16 +59,11 @@ OS_Control._S_MSP_Task=(unsigned int)&_estack;
 
 	return NoError;
 ```
-First _S_MSP_Task eqeul The Top of Stack "_estack --> we can get the symbol From LinkerScript File"
-
-Then We Calculate End of Main Stack pointer by subtract Top of stack from MainStackSize "MainStackSize is Macro You Can Change Size by it "
-
-Then Check if The End Of Main Stack Pointer Still in Stack Section not Enter Heap Section 
-
-Then Use PSP_Task_Locator to be equel _E_MSP_Task - 8 Byte 
-
-and this will be The first Location of Task1
-
+First _S_MSP_Task eqeul The Top of Stack "_estack --> we can get the symbol From LinkerScript File"<br/>
+Then We Calculate End of Main Stack pointer by subtract Top of stack from MainStackSize "MainStackSize is Macro You Can Change Size by it "<br/>
+Then Check if The End Of Main Stack Pointer Still in Stack Section not Enter Heap Section <br/>
+Then Use PSP_Task_Locator to be equel _E_MSP_Task - 8 Byte <br/>
+and this will be The first Location of Task1<br/>
 ![image](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/988cbbd4-c419-4969-bc40-1a7df53ce6b4)
 
 3. Configure IDLE TASK
@@ -128,13 +120,10 @@ unsigned char priority ;
 char TaskName[30];	
 void (*p_TaskEntry)(void);
 ```
-Stack_Size --> To Set the Task Stack size 
-
-priority --> To Set the Task Priority , and 0 Number a higher in  periority than 255
-
-char TaskName[30] --> You Can Write Here a breif of your Task "it can use for debugging"
-
-void (*p_TaskEntry)(void) --> you Set this parameter with address of function 
+Stack_Size --> To Set the Task Stack size <br/>
+priority --> To Set the Task Priority , and 0 Number a higher in  periority than 255 <br/>
+char TaskName[30] --> You Can Write Here a breif of your Task "it can use for debugging" <br/>
+void (*p_TaskEntry)(void) --> you Set this parameter with address of function  <br/>
 
 
 ### Example About How to Use MYRTOS_CreateTask()
