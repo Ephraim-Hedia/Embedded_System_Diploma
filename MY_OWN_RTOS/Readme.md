@@ -1,5 +1,17 @@
-# How to Use This RTOS
+# MY OWN RTOS
 
+
+First of all The MRTOS is implemented for educational and learning purposes so it may exist some faults I didn't handle so u can upload them in the issue section or fork the project and try to add your modification.
+## Getting help
+Feel Free to contact me, just message me at
+
+Linkedin at https://www.linkedin.com/in/guirguis-hedia-501446207/
+
+Facebook at https://www.facebook.com/afraem.hedia
+
+with your question.
+
+# How to Use This RTOS
 ## First Step 
 Use HW_init() in main Function to Change the periority of PendSV_IRQn to be equel the periorty of SysTick_IRQn
 To Avoid Nesting Interrupt about this section of code
