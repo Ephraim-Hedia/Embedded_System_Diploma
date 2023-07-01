@@ -25,11 +25,11 @@ Use MYRTOS_init() in main To Initailze Your RTOS
 if(MYRTOS_init()!= NoError)
 	while(1);
 ```
-We Use MYRTOS_init() Function To
+**We Use MYRTOS_init() Function To:**
 1. Update OS Mode (OSsuspend)
 
-We make the Operating System in SUspend state in the Beginning 
-to Initalize All Parameter then make it in Running State
+We make the Operating System in **Suspend state** in the Beginning 
+to Initalize All Parameter then make it in **Running State**
 
 ```OS_Control.OSmodeID = OSsuspend;```
 
@@ -50,6 +50,18 @@ OS_Control._S_MSP_Task=(unsigned int)&_estack;
 
 	return NoError;
 ```
+First _S_MSP_Task eqeul The Top of Stack "_estack --> we can get the symbol From LinkerScript File"
+
+Then We Calculate End of Main Stack pointer by subtract Top of stack from MainStackSize "MainStackSize is Macro You Can Change Size by it "
+
+Then Check if The End Of Main Stack Pointer Still in Stack Section not Enter Heap Section 
+
+Then Use PSP_Task_Locator to be equel _E_MSP_Task - 8 Byte 
+
+and this will be The first Location of Task1
+
+![image](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/988cbbd4-c419-4969-bc40-1a7df53ce6b4)
+
 3. Configure IDLE TASK
 
 You Can See Below In the Third Step How to create Task
