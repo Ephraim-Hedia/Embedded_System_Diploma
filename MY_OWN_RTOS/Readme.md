@@ -17,8 +17,54 @@ The big role of this function to change the periority of the PendSV_IRQn to be e
 __NVIC_SetPriority(PendSV_IRQn, 15);
 ```
 This Operating System Based on ARM cortex M3 So if you want to Use This Operating System with another Microprocessor You will Change in this Function
-## Second Step 
 
+
+## Second Step
+Use MYRTOS_init() in main To Initailze Your RTOS
+```
+if(MYRTOS_init()!= NoError)
+	while(1);
+```
+We Use MYRTOS_init() Function To
+1. Update OS Mode (OSsuspend)
+
+We make the Operating System in SUspend state in the Beginning 
+to Initalize All Parameter then make it in Running State
+
+```OS_Control.OSmodeID = OSsuspend;```
+
+2. Specify the main Stack for OS ```error +=MYRTOS_Create_MainStack();```
+```
+OS_Control._S_MSP_Task=(unsigned int)&_estack;
+	OS_Control._E_MSP_Task=OS_Control._S_MSP_Task - MainStackSize ;
+
+	//if (_E_MSP_Task < &_eheap) Error : exceeded the available stack size
+	if(OS_Control._E_MSP_Task < (unsigned int )(&_eheap))
+	{
+		return Task_exceeded_StackSize;
+	}
+
+
+	//Aligned 8 Byte spaces between Main Task and PSP Tasks
+	OS_Control.PSP_Task_Locator=(OS_Control._E_MSP_Task - 8);
+
+	return NoError;
+```
+3. Configure IDLE TASK
+
+You Can See Below In the Third Step How to create Task
+```
+strcpy(MYRTOS_idleTask.TaskName,"idleTask");
+MYRTOS_idleTask.priority =255;
+MYRTOS_idleTask.p_TaskEntry=MYRTOS_IdleTask;
+MYRTOS_idleTask.Stack_Size=300;
+
+error += MYRTOS_CreateTask(&MYRTOS_idleTask);
+```
+
+
+
+## Third Step
 To Create any Task You Need to Use This Stuct **Task_ref**
 
 You will Use 4 Parameters Only From This Struct **Task_ref** and the another parameters The OS will Set them
