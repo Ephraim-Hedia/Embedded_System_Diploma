@@ -288,10 +288,21 @@ EN_serverError_t saveTransaction(ST_transaction_t *transData)
 }
 ```
 
+# Checking The System 
+## 1.Your Transaction Is Approved
+![OUTPUT1](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/eb08f739-668c-479c-9e84-4454dc0c388b)
 
+## 2.DECLINED_INSUFFECIENT_FUND
+![OUTPUT2](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/55efdb26-c6c2-46a5-9bf3-3f3a2a7e6c18)
 
+## 3.FRAUD_CARD
+![OUTPUT3](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/801df823-a955-4327-975f-eb0c59d0f3b6)
 
+## 4.DECLINED_STOLEN_CARD
+![OUTPUT4](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/b4d20822-b63f-4306-a218-1118b18d76f9)
 
+## 5.Card is Expired
+![OUTPUT5](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/61247285-d259-4dc1-9c6f-07d7b2a73923)
 
 
 
