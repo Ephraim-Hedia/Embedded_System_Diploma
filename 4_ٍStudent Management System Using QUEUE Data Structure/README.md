@@ -40,8 +40,10 @@ Trying to Find Algorithm to Manage Student Database
 ![bandicam 2023-08-01 23-31-50-379](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/f26b32e5-4a63-476f-907b-651b4c2707de)
 
 ###  Find The Student Details By the Course ID:
+![bandicam 2023-08-02 00-17-46-788](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/8965d774-9ab5-48c6-a2e8-982db7258fab)
 
 ###  Find The Total Number of Students :
+![bandicam 2023-08-02 00-19-20-917](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/c338b7ec-f62c-485e-b91d-db6a75155cca)
 
 ### Delete the Student Details By Roll Number :
 
