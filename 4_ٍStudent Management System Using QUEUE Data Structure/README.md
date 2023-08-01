@@ -21,10 +21,13 @@ Trying to Find Algorithm to Manage Student Database
   ![bandicam 2023-08-01 23-17-38-487](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/376b9379-b6da-435f-a968-8884fad39c05)
 
 - ####  Syntax Error in First Name :
-  
+  ![bandicam 2023-08-01 23-24-05-142](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/3e3cfffe-f675-43fb-88de-825934f9756c)
+
 - ####  Syntax Error In Last Name :
-  
+  ![bandicam 2023-08-01 23-24-40-574](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/789e6e0b-e4f8-4325-b290-3d504c95bab2)
+
 - ####  Syntax Error In GPA :
+  ![bandicam 2023-08-01 23-26-32-777](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/8d8ad8c5-31eb-4e10-889f-3844d9f968e0)
 
 
 
