@@ -37,6 +37,7 @@ Trying to Find Algorithm to Manage Student Database
 ![bandicam 2023-08-01 23-30-19-877](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/2e1dc90a-af8e-49d1-ac93-5ebc4dbbe576)
 
 ###  Find The Student Details By the First Name:
+![bandicam 2023-08-01 23-31-50-379](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/f26b32e5-4a63-476f-907b-651b4c2707de)
 
 ###  Find The Student Details By the Course ID:
 
