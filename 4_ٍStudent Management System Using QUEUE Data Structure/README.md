@@ -34,6 +34,7 @@ Trying to Find Algorithm to Manage Student Database
 ###  Add student From Text File:
 
 ###  Find The Student Details By the Roll Number:
+![bandicam 2023-08-01 23-30-19-877](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/2e1dc90a-af8e-49d1-ac93-5ebc4dbbe576)
 
 ###  Find The Student Details By the First Name:
 
