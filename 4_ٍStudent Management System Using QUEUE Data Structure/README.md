@@ -12,11 +12,14 @@ Trying to Find Algorithm to Manage Student Database
 ###  Add student manually:
 
 - ####  The OUTPUT With No Error:
-  
+  ![bandicam 2023-08-01 23-14-07-021](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/e7381f1d-a4c3-4da2-b737-36d0e8a25a1c)
+
 - ####  Syntax Error In Roll Number :
-  
+  ![bandicam 2023-08-01 23-16-56-140](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/37539bb6-d264-4738-ba69-ea083093736c)
+
 - ####  Repeated Roll Number :
-  
+  ![bandicam 2023-08-01 23-17-38-487](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/376b9379-b6da-435f-a968-8884fad39c05)
+
 - ####  Syntax Error in First Name :
   
 - ####  Syntax Error In Last Name :
