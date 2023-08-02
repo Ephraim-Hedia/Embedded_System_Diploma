@@ -9,7 +9,7 @@ Trying to Find Algorithm to Manage Student Database
 
 ## The Features of The Project
 
-###  Add student manually:
+##  Add student manually:
 
 - ####  The OUTPUT With No Error:
   ![bandicam 2023-08-01 23-14-07-021](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/e7381f1d-a4c3-4da2-b737-36d0e8a25a1c)
@@ -30,25 +30,23 @@ Trying to Find Algorithm to Manage Student Database
   ![bandicam 2023-08-01 23-26-32-777](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/8d8ad8c5-31eb-4e10-889f-3844d9f968e0)
 
 
-
-###  Add student From Text File:
-
-###  Find The Student Details By the Roll Number:
+##  Find The Student Details By the Roll Number:
 ![bandicam 2023-08-01 23-30-19-877](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/2e1dc90a-af8e-49d1-ac93-5ebc4dbbe576)
 
-###  Find The Student Details By the First Name:
+##  Find The Student Details By the First Name:
 ![bandicam 2023-08-01 23-31-50-379](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/f26b32e5-4a63-476f-907b-651b4c2707de)
 
-###  Find The Student Details By the Course ID:
+##  Find The Student Details By the Course ID:
 ![bandicam 2023-08-02 00-17-46-788](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/8965d774-9ab5-48c6-a2e8-982db7258fab)
 
-###  Find The Total Number of Students :
+##  Find The Total Number of Students :
 ![bandicam 2023-08-02 00-19-20-917](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/c338b7ec-f62c-485e-b91d-db6a75155cca)
 
-### Delete the Student Details By Roll Number :
+## Delete the Student Details By Roll Number :
+![bandicam 2023-08-02 00-22-31-210](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/6c1c7e49-5cb5-4353-8da2-e23866b8ce83)
 
+## Update the Student Details By Roll Number :
+![bandicam 2023-08-02 11-42-03-216](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/7b2b414c-f3cd-4a08-bee5-284ae24b7f73)
 
-### Update the Student Details By Roll Number :
-
-
-### Show All Information :
+## Show All Information :
+![bandicam 2023-08-02 11-43-50-992](https://github.com/Ephraim-Hedia/Embedded_System_Diploma/assets/74508494/0cf0a86c-6c7b-4b38-9b08-7f51e8ba7459)
